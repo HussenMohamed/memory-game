@@ -15,7 +15,7 @@
             Hello: <span></span>
         </div>
         <div class="tries">
-            Wrong Tries: <span></span>
+            Wrong Tries: <span>0</span>
         </div>
     </div>
     <!-- Calc -->
@@ -33,13 +33,13 @@
             </div>
         </div>
         <!-- Camera -->
-        <div class="game-block" data-image="calculator">
+        <div class="game-block" data-image="camera">
             <div class="face front"></div>
             <div class="face back">
                 <img src="images/camera.png" alt="">
             </div>
         </div>
-        <div class="game-block" data-image="calculator">
+        <div class="game-block" data-image="camera">
             <div class="face front"></div>
             <div class="face back">
                 <img src="images/camera.png" alt="">
@@ -111,6 +111,10 @@
             </div>
         </div>
     </div>
+
+    <audio id="success" src="audio/success-sound.mp3" preload="auto"></audio>
+    <audio id="failure" src="audio/failure-sound.mp3" preload="auto"></audio>
+    
     <script src="main.js"></script>
 </body>
 </html>
